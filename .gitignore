@@ -1,0 +1,21 @@
+# Dependencies
+src/app/node_modules/
+
+# MongoDB data volume
+src/db/
+src/tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+mydatabase
+
+# Env / OS
+.env
+.DS_Store
+
+# Build / cache
+src/app/build/
+src/app/.eslintcache
+*.log
